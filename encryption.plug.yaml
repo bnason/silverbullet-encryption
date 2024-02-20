@@ -1,0 +1,10 @@
+name: encryption
+functions:
+  encrypt:
+    path: encryption.ts:encrypt
+    command:
+      name: 'Encrypt text'
+  decrypt:
+    path: encryption.ts:decrypt
+    command:
+      name: 'Decrypt text'
